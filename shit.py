@@ -1,5 +1,5 @@
-import pandas as din
-pol = din.read_csv("agoravai.csv")
+import pandas as pd
+pol = pd.read_csv("agoravai.csv")
 print(pol)
 
 #ao importar a biblioteca pandas que adiciona funções de leitura de arquivo e nomea-la como a variavel "din",

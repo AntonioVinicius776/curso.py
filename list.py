@@ -3,6 +3,7 @@ print(list0)
 
 list0[0]="nossa"
 print(list0[0])
+print(list0)
 
 del list0[3]
 print(list0)

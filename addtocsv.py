@@ -1,4 +1,3 @@
-#operações com valores adicionados a dicionarios pelo usuario(sem pandas de preferencia)
 import pandas as pd
 
 newFdates={
@@ -7,3 +6,11 @@ newFdates={
     'custo/kg':[4,5,2],
     'produção/kg':['muito','meio','pouco']
     }
+
+fishtab=pd.DataFrame(newFdates)
+
+fishtab.to_csv('',index=False)
+
+tab=pd.read_csv('',delimiter=',')
+
+print(tab)

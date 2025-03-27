@@ -10,5 +10,11 @@ for nome, quantidade, preço in zip(dic["nome"], dic["quantidade"], dic["preço"
 
 for chave, valor in dic.items():
     print(chave, valor)
+    
+chaves=dic.keys()
+valores=dic.values()
+
+print(chaves)
+print(valores)
 
 #eu quero pagar impooooossstoooooo

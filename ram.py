@@ -7,4 +7,4 @@ def sorteio_aluno():
     escolher=random.choice(alunos)
     print(f"o sortudo foi:{escolher}")
 
-    sorteio_aluno()
+sorteio_aluno()

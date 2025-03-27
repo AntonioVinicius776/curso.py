@@ -1,0 +1,1 @@
+#operações com valores adicionados a dicionarios pelo usuario(sem pandas de preferencia)
